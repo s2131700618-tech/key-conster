@@ -1,4 +1,5 @@
 open_key = document.getElementById("open-key");
+copy_key = document.getElementById("copy-key");
 
 let timeLeft = 5;
 var can_click = false;
@@ -19,4 +20,12 @@ open_key.onclick = function () {
   if (can_click) {
     window.location.assign("");
   }
+};
+
+copy_key.onclick = function () {
+  navigator.clipboard.writeText("funfuckdm7");
+  copy_key.textContent = "已複製";
+  setTimeout(() => {
+    copy_key.textContent = "複製";
+  }, 1000);
 };
