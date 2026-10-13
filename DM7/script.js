@@ -18,7 +18,7 @@ const timerId = setInterval(() => {
 
 open_key.onclick = function () {
   if (can_click) {
-    window.location.assign("");
+    window.location.assign("https://direct-link.net/10105923/UiFpKlXJfwJz");
   }
 };
 
